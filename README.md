@@ -135,3 +135,22 @@ Used strictly for learning and portfolio demonstration purposes.
 
 **Ananya Rachuri**  
 Data Engineer | Cloud & Analytics
+
+
+
+
+## How to Run Locally
+
+1. Clone repo  
+2. Load raw CSV to BigQuery  
+3. Execute staging and mart SQL  
+4. Trigger DAG in Airflow
+
+See code for details.
+
+
+### Example Output
+
+| neighbourhood | age_group | no_show_rate |
+|--------------|-----------|--------------|
+| ZIP 123     | 18–35     | 0.20         |
