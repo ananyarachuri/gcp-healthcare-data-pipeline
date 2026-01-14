@@ -6,6 +6,15 @@ The goal is to transform raw healthcare appointment data into reliable, analytic
 
 ---
 
+
+### Architecture Diagram
+
+![Architecture Diagram](diagrams/architecture.drawio.png)
+
+*High-level pipeline flow from raw ingestion to analytics mart*.
+
+--
+
 ## Why this project?
 
 Missed medical appointments are a real operational problem for healthcare providers.  
@@ -41,11 +50,6 @@ Dashboards / Reporting / ML
 Each layer has a clear responsibility and can be independently validated.
 
 ---
-
-
-### Architecture Diagram
-
-![Architecture Diagram](diagrams/architecture.png)
 
 
 ## Repository Structure
