@@ -6,15 +6,6 @@ The goal is to transform raw healthcare appointment data into reliable, analytic
 
 ---
 
-
-### Architecture Diagram
-
-![Architecture Diagram](diagrams/architecture.drawio.png)
-
-*High-level pipeline flow from raw ingestion to analytics mart*.
-
---
-
 ## Why this project?
 
 Missed medical appointments are a real operational problem for healthcare providers.  
@@ -33,6 +24,14 @@ This pipeline focuses on analyzing **appointment no-shows by age group and neigh
 The result is a dataset that can be directly used for dashboards, reporting, or downstream analytics.
 
 ---
+
+
+### Architecture Diagram
+
+![Architecture Diagram](diagrams/architecture.drawio.png)
+
+*High-level pipeline flow from raw ingestion to analytics mart*.
+
 
 ## Architecture Overview
 
